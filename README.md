@@ -6,6 +6,7 @@
 [![Domain](https://img.shields.io/badge/Domain-6G%20V2X%20%2F%20VANETs-orange.svg)](#)
 [![XAI](https://img.shields.io/badge/Explainability-Feature%20Attribution%20%26%20Signatures-purple.svg)](#)
 [![Status](https://img.shields.io/badge/Benchmark-10M%2B%20Beacons%20Evaluated-success.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -19,7 +20,8 @@
 - [7. Operational Metrics (Latency & False Alarm Rate)](#7-operational-metrics-latency--false-alarm-rate)
 - [8. Repository Structure](#8-repository-structure)
 - [9. Setup & Reproduction Guide](#9-setup--reproduction-guide)
-- [10. Citation & Acknowledgments](#10-citation--acknowledgments)
+- [10. License](#10-license)
+- [11. Citation & Acknowledgments](#11-citation--acknowledgments)
 
 ---
 
@@ -398,7 +400,13 @@ python work\train_v2.py
 
 ---
 
-## 10. Citation & Acknowledgments
+## 10. License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 11. Citation & Acknowledgments
 
 If you utilize this benchmark, dataset methodology, or explainable intrusion detection framework in your research, please cite:
 
@@ -415,3 +423,4 @@ If you utilize this benchmark, dataset methodology, or explainable intrusion det
 
 ---
 *Maintained by Harshil Rajyaguru. Contributions and feedback are welcome!*
+
