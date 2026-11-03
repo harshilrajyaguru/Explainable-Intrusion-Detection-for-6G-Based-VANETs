@@ -1,0 +1,5 @@
+,Benign,Blackhole,DDoS,Sybil
+Benign,36674,4,48,497
+Blackhole,65,154,0,1
+DDoS,73,3,4876,4
+Sybil,1138,0,1,6152

@@ -1,0 +1,76 @@
+# Configuration for VANET Intrusion Detection LSTM Pipeline
+
+data:
+  train_files:
+    - 'train_1.csv'
+    - 'train_2.csv'
+    - 'train_3.csv'
+    - 'train_4.csv'
+  val_files:
+    - 'train_5.csv'
+    - 'train_6.csv'
+  eval_files:
+    llm: 'val_7.csv'
+    test_8: 'test_8.csv'
+    test_9: 'test_9.csv'
+    test_hard_10: 'test_hard_10.csv'
+
+windowing:
+  window_sizes: [10, 20, 40, 1]  # W = 10, 20, 40, and W=1 ablation
+  stride: 10                     # Window stride across sequential beacons
+  group_cols:
+    - 'runId'
+    - 'receiverId'
+    - 'senderId'
+  time_col: 'simTime'
+  label_mode: 'last'             # Window label = label of the last beacon
+
+features:
+  use_absolute_positions: false   # Default setting; ablation runs W=20 with positions
+  dropped_columns:
+    - 'runId'
+    - 'simTime'
+    - 'receiverId'
+    - 'senderId'
+    - 'msgSeq'
+    - 'label'
+    - 'attackType'
+    - 'attackerNode'
+    - 'rsrq'                     # Constant (-3.0)
+  log_transform_columns:
+    - 'pktRate'
+    - 'rxMsgRate'
+    - 'cbr'
+    - 'posRadioMismatch'
+    - 'interArrival'
+    - 'delay'
+    - 'pathLoss'
+    - 'posJump'
+    - 'posJumpVsImplied'
+  clip_range: [-10.0, 10.0]
+
+model:
+  lstm:
+    input_size_no_pos: 37         # 32 base non-position + 5 engineered sequential dynamics
+    input_size_with_pos: 41       # includes posX, posY, rxPosX, rxPosY
+    hidden_size: 128
+    num_layers: 2
+    dropout: 0.3
+    pooling: 'last'
+  num_classes_multi: 4            # Benign, Blackhole, DDoS, Sybil
+  class_names:
+    - 'Benign'
+    - 'Blackhole'
+    - 'DDoS'
+    - 'Sybil'
+
+training:
+  batch_size: 1024
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  epochs: 8
+  early_stopping_patience: 5
+  grad_clip: 1.0
+  loss_weights: 'sqrt_inverse_frequency'
+  threshold_tuning: 'validation_only'
+  device: 'cpu'                   # CPU multi-threading (16 threads)

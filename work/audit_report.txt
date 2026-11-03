@@ -1,0 +1,306 @@
+================================================================================
+VANET INTRUSION DETECTION DATASET - COMPREHENSIVE PHASE 0 AUDIT REPORT
+================================================================================
+
+--------------------------------------------------------------------------------
+FILE: train_1.csv (Role: train)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (400,442 rows so far)...
+Shape: (400,442, 45)
+SimTime Range: [0.0014, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 121, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,441
+Per-Pair Sequence Lengths: Mean=116.4, Std=151.3, Min=1, Max=2540
+  Percentiles: p25=27, p50(Median)=75, p75=153, p90=249, p95=327, p99=772
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 337,567 (84.30%)
+  Label 1: 62,875 (15.70%)
+Attack Type Breakdown:
+  Benign          :  337,567 ( 84.30%)
+  Sybil           :   35,162 (  8.78%)
+  DDoS            :   23,780 (  5.94%)
+  Blackhole       :    3,933 (  0.98%)
+
+--------------------------------------------------------------------------------
+FILE: train_2.csv (Role: train)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (390,776 rows so far)...
+Shape: (390,776, 45)
+SimTime Range: [0.0008, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 119, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,586
+Per-Pair Sequence Lengths: Mean=109.0, Std=135.9, Min=1, Max=2714
+  Percentiles: p25=25, p50(Median)=68, p75=153, p90=238, p95=313, p99=639
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 342,390 (87.62%)
+  Label 1: 48,386 (12.38%)
+Attack Type Breakdown:
+  Benign          :  342,390 ( 87.62%)
+  Sybil           :   27,145 (  6.95%)
+  DDoS            :   17,621 (  4.51%)
+  Blackhole       :    3,620 (  0.93%)
+
+--------------------------------------------------------------------------------
+FILE: train_3.csv (Role: train)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (406,712 rows so far)...
+Shape: (406,712, 45)
+SimTime Range: [0.0004, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 124, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,681
+Per-Pair Sequence Lengths: Mean=110.5, Std=146.2, Min=1, Max=1729
+  Percentiles: p25=25, p50(Median)=66, p75=149, p90=242, p95=322, p99=870
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 353,319 (86.87%)
+  Label 1: 53,393 (13.13%)
+Attack Type Breakdown:
+  Benign          :  353,319 ( 86.87%)
+  Sybil           :   35,310 (  8.68%)
+  DDoS            :   13,120 (  3.23%)
+  Blackhole       :    4,963 (  1.22%)
+
+--------------------------------------------------------------------------------
+FILE: train_4.csv (Role: train)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (417,107 rows so far)...
+Shape: (417,107, 45)
+SimTime Range: [0.0032, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 127, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,912
+Per-Pair Sequence Lengths: Mean=106.6, Std=153.5, Min=1, Max=3449
+  Percentiles: p25=25, p50(Median)=66, p75=142, p90=224, p95=292, p99=803
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 346,212 (83.00%)
+  Label 1: 70,895 (17.00%)
+Attack Type Breakdown:
+  Benign          :  346,212 ( 83.00%)
+  Sybil           :   42,735 ( 10.25%)
+  DDoS            :   26,192 (  6.28%)
+  Blackhole       :    1,968 (  0.47%)
+
+--------------------------------------------------------------------------------
+FILE: train_5.csv (Role: train)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (394,109 rows so far)...
+Shape: (394,109, 45)
+SimTime Range: [0.0009, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 124, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,604
+Per-Pair Sequence Lengths: Mean=109.4, Std=153.0, Min=1, Max=2891
+  Percentiles: p25=27, p50(Median)=70, p75=139, p90=228, p95=303, p99=792
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 328,378 (83.32%)
+  Label 1: 65,731 (16.68%)
+Attack Type Breakdown:
+  Benign          :  328,378 ( 83.32%)
+  Sybil           :   36,618 (  9.29%)
+  DDoS            :   24,725 (  6.27%)
+  Blackhole       :    4,388 (  1.11%)
+
+--------------------------------------------------------------------------------
+FILE: train_6.csv (Role: val (internal validation split))
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (396,159 rows so far)...
+Shape: (396,159, 45)
+SimTime Range: [0.0012, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 128, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,725
+Per-Pair Sequence Lengths: Mean=106.4, Std=125.9, Min=1, Max=1174
+  Percentiles: p25=25, p50(Median)=68, p75=153, p90=236, p95=296, p99=656
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 338,492 (85.44%)
+  Label 1: 57,667 (14.56%)
+Attack Type Breakdown:
+  Benign          :  338,492 ( 85.44%)
+  Sybil           :   53,120 ( 13.41%)
+  DDoS            :    3,431 (  0.87%)
+  Blackhole       :    1,116 (  0.28%)
+
+--------------------------------------------------------------------------------
+FILE: val_7.csv (Role: LLM data (eval))
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (400,172 rows so far)...
+Shape: (400,172, 45)
+SimTime Range: [0.0009, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 137, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,732
+Per-Pair Sequence Lengths: Mean=107.2, Std=138.1, Min=1, Max=2000
+  Percentiles: p25=21, p50(Median)=68, p75=150, p90=233, p95=298, p99=763
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 314,470 (78.58%)
+  Label 1: 85,702 (21.42%)
+Attack Type Breakdown:
+  Benign          :  314,470 ( 78.58%)
+  Sybil           :   64,157 ( 16.03%)
+  DDoS            :   19,123 (  4.78%)
+  Blackhole       :    2,422 (  0.61%)
+
+--------------------------------------------------------------------------------
+FILE: test_8.csv (Role: test)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (441,752 rows so far)...
+Shape: (441,752, 45)
+SimTime Range: [0.0004, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 121, Unique Receivers: 100
+Unique (Receiver, Sender) Pairs: 3,811
+Per-Pair Sequence Lengths: Mean=115.9, Std=149.9, Min=1, Max=1868
+  Percentiles: p25=28, p50(Median)=74, p75=152, p90=248, p95=324, p99=817
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 383,232 (86.75%)
+  Label 1: 58,520 (13.25%)
+Attack Type Breakdown:
+  Benign          :  383,232 ( 86.75%)
+  Sybil           :   29,645 (  6.71%)
+  DDoS            :   26,165 (  5.92%)
+  Blackhole       :    2,710 (  0.61%)
+
+--------------------------------------------------------------------------------
+FILE: test_9.csv (Role: test)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (450,000 rows so far)...
+  Processed chunk 4 (511,740 rows so far)...
+Shape: (511,740, 45)
+SimTime Range: [0.0004, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 155, Unique Receivers: 110
+Unique (Receiver, Sender) Pairs: 4,762
+Per-Pair Sequence Lengths: Mean=107.5, Std=149.8, Min=1, Max=2521
+  Percentiles: p25=22, p50(Median)=67, p75=143, p90=233, p95=319, p99=743
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 384,120 (75.06%)
+  Label 1: 127,620 (24.94%)
+Attack Type Breakdown:
+  Benign          :  384,120 ( 75.06%)
+  Sybil           :   75,357 ( 14.73%)
+  DDoS            :   50,035 (  9.78%)
+  Blackhole       :    2,228 (  0.44%)
+
+--------------------------------------------------------------------------------
+FILE: test_hard_10.csv (Role: test_hard)
+--------------------------------------------------------------------------------
+  Processed chunk 1 (150,000 rows so far)...
+  Processed chunk 2 (300,000 rows so far)...
+  Processed chunk 3 (450,000 rows so far)...
+  Processed chunk 4 (600,000 rows so far)...
+  Processed chunk 5 (750,000 rows so far)...
+  Processed chunk 6 (900,000 rows so far)...
+  Processed chunk 7 (1,050,000 rows so far)...
+  Processed chunk 8 (1,200,000 rows so far)...
+  Processed chunk 9 (1,226,887 rows so far)...
+Shape: (1,226,887, 45)
+SimTime Range: [0.0014, 119.9900] s (Duration: 119.99 s)
+Unique Senders: 304, Unique Receivers: 250
+Unique (Receiver, Sender) Pairs: 12,004
+Per-Pair Sequence Lengths: Mean=102.2, Std=137.8, Min=1, Max=2354
+  Percentiles: p25=22, p50(Median)=62, p75=141, p90=209, p95=277, p99=769
+Constant Columns (1): ['rsrq']
+   rsrq = -3.0
+NaN Count: 0, Inf Count: 0
+Class Balance (label):
+  Label 0: 1,019,184 (83.07%)
+  Label 1: 207,703 (16.93%)
+Attack Type Breakdown:
+  Benign          : 1,019,184 ( 83.07%)
+  Sybil           :  119,568 (  9.75%)
+  DDoS            :   70,586 (  5.75%)
+  Blackhole       :   17,549 (  1.43%)
+
+================================================================================
+FEATURE SEPARABILITY & POTENTIAL LABEL PROXY ANALYSIS (TRAIN DATA)
+================================================================================
+Attacks evaluated: ['Benign', 'Blackhole', 'DDoS', 'Sybil']
+
+Feature                      Benign      Blackhole           DDoS          Sybil
+--------------------------------------------------------------------------------
+accel                        -0.002          0.009          0.011          0.001
+cbr                           0.073          0.065          0.098          0.118
+cqi                           7.000          7.000          7.000          7.000
+delay                         0.002          0.002          0.002          0.002
+distEst                     145.900        143.760        143.410        141.050
+distance                    163.990        161.570        157.560        163.120
+fwdRatio                      0.896          0.247          0.701          0.900
+heading                     179.560        266.900         90.000         94.556
+headingDiff                  90.000         89.950         90.000         90.336
+idAge                        16.996         18.600         22.908         12.400
+impliedSpeed                 13.049         13.542          0.002         13.853
+interArrival                  0.100          0.200          0.005          0.100
+jitter                        0.000          0.000          0.000          0.000
+neighborDensity              11.429         11.429         10.000         11.429
+numNeighbors                  8.000          8.000          7.000          8.000
+pathLoss                    107.250        107.040        107.010        106.780
+pdr                           0.801          0.427          0.790          0.776
+pktRate                       9.058          6.108        123.700          8.671
+pktSize                     190.000        189.000        711.000        190.000
+posRadioMismatch              0.119          0.104          0.115          0.182
+posX                        987.410       1195.000        751.750        828.720
+posY                       1001.800        838.560       1248.200       1150.400
+relSpeed                      0.035          0.223         -0.270          0.244
+rsrp                        -84.249        -84.045        -84.010        -83.780
+rsrq                         -3.000         -3.000         -3.000         -3.000
+rssi                        -83.861        -83.713        -83.610        -83.366
+rxHeading                    90.000        180.000        180.000         90.000
+rxMsgRate                    91.450         81.267        122.450        147.560
+rxPosX                      992.690       1185.700        742.070        825.330
+rxPosY                     1001.800        756.830       1184.400       1158.200
+rxSpeed                      13.126         13.216         13.224         13.176
+sameLocCount                  0.000          0.000          0.000          0.000
+seqGap                        0.000          1.000          0.000          0.000
+sinr                         10.360         10.903         10.041         10.030
+speed                        13.112         13.545         13.023         13.727
+speedDelta                    0.000         -0.000        -10.502          0.004
+txPower                      23.000         23.013         22.996         23.004
+
+================================================================================
+SUMMARY OF CONSTANT COLUMNS ACROSS ALL 10 FILES:
+  - 'rsrq' is constant in 10/10 files (Files: ['train_1.csv', 'train_2.csv', 'train_3.csv', 'train_4.csv', 'train_5.csv', 'train_6.csv', 'val_7.csv', 'test_8.csv', 'test_9.csv', 'test_hard_10.csv'])
+
+================================================================================
+DATASET TOTAL ROWS AND CLASS DISTRIBUTION ACROSS ALL FILES:
+Total Rows: 4,985,856
+Total Benign: 4,147,364 (83.18%)
+Total Malicious: 838,492 (16.82%)
+================================================================================
